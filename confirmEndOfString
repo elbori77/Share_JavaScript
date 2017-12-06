@@ -1,0 +1,8 @@
+//Match the end of the string return true or false
+function confirmEnding(str, target) {
+  var a = new RegExp(target+"$").test(str); 
+   return a;  
+}
+
+
+confirmEnding("Superman", "n");
