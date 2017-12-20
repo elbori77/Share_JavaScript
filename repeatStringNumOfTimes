@@ -1,0 +1,12 @@
+function repeatStringNumTimes(str, num) {
+  // repeat after me
+   if(num <= -1){
+     return '';
+   }
+   
+   var mult = str.repeat(num);
+    
+  return mult;
+}
+
+repeatStringNumTimes("abc", -3);
